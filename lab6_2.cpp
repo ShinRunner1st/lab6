@@ -1,6 +1,38 @@
+#define _USE_MATH_DEFINES
 #include <iostream>
+#include <cmath>
 
 using namespace std;
+
+double deg2rad(double a){
+    return a * M_PI / 180;
+
+}
+
+double rad2deg(double a){
+    return a * M_PI /180;
+
+}
+
+double atan2(double y, double x){
+    return atan(y/x);
+}
+
+double findXComponent(double l1, double l2, double a1, double a2){
+
+}
+
+double findYComponent(double l1, double l2, double a1, double a2){
+
+}
+
+double pythagoras(double x, double y){
+
+}
+
+double showResult(double l, double d){
+
+}
 
 int main(){
     double l1,l2,a1,a2,xcomp,ycomp,result_vec_length,result_vec_direction;
